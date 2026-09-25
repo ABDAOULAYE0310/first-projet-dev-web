@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma premiere page html</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="web.ico"/>
+    <style>
+        .bouton {
+            background-color: green;
+            color: white;
+            padding: 10px
+            border-radius: 5px;
+            display: inline; 
+        }
+
+        #bouton-1{
+            background-color: red
+        }
+        #bouton-2{
+            font-weight: bold;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>comment coder</h1>
+        <nav>
+            <ul>
+                <li><a href="a.html">la balise d'ancrage</a></li>
+                <li><a href="div.html">la balise div</a></li>
+                <li><a href="form.html">la balise de formulaire</a></li>
+                <li><a href="headings.html">les balise de titres</a></li>
+                <li><a href="img.html">la balise d'image</a></li>
+                <li><a href="input.html">la balise d'input</a></li>
+                <li><a href="listes.html">la balise ul,ol et li</a></li>
+                <li><a href="p.html">la balise pour les paragraphe</a></li>
+                <li><a href="span.html">la balise pour selectionner des texte </a></li>
+                <li><a href="stronge-em.html">la balise pour mettre en gras ou en italique</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <section>
+        <h2>Article de blog</h2>
+        <article>
+            <h3>mon super article</h3>
+        <p> Bonjour Abdoulaye diouf comment vas tu et les cours j'espere que ça va la famille tout le monde se porte bien </p>
+        <p><strong>l'introduction de mon article de blog resumé en un paragraphe</strong> </p>
+       </article>
+       </section> 
+       <section>
+        <h2>Tableaux</h2>
+        <table border="1">
+          <thead>
+            <tr>
+                <th>Prenom</th>
+                <th>Nom</th>
+                <th>Age</th>
+                <th>Moyenne</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>Abdoulaye</td>
+                <td>DIOUF</td>
+                <td>18</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Kim</td>
+                <td>diouf</td>
+                <td>19</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Amadou</td>
+                <td>Ba</td>
+                <td>19</td>
+                <td>20</td>
+            </tr>
+         </tbody>
+          <tfoot>
+
+          </tfoot>   
+        </table>
+        </section>
+        <section>
+            <h2>Input texte</h2>
+            <input type="text"/>
+            <br/>
+            <br/>
+            <textarea rows="5" cols="50" placeholder="Mon super textarea"></textarea>
+        </section>
+        <section>
+            <h2>Autres</h2>
+            <code>print("Bonjour")</code>
+        </section>
+        <section>
+            <h2>Boutons</h2>
+            <div class="bouton" id="bouton-1">bouton 1</div>
+            <div class="bouton" id="bouton-2">bouton 2</div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h5>reseaux sociaux</h5>
+            <ol>               
+                <li><a href="https://www.youtube.com/@commentcoder">youtube</a></li>
+                <li><a href="https://www.tiktok.com/@commentcoder">tiktok</a></li>
+                <li><a href="https://www.github.com/commentcoder">github</a></li>
+                <li><a href="https://linkedin.com/company/commentcoder">Linkedin</a></li>
+            </ol>
+        </div>
+        <span>comment coder 2026</span>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
